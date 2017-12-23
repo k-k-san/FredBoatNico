@@ -21,7 +21,7 @@ RUN cp /root/FredBoat/FredBoat/build/libs/FredBoat.jar /opt/FredBoat/ && \
     mv NicoAudioSourceManager.class com/sedmelluq/discord/lavaplayer/source/nico/ && \
     zip -r FredBoat.jar com/sedmelluq/discord/lavaplayer/source/nico/NicoAudioSourceManager.class && \
     apt-get remove -y zip git && \
-    rm -rf /root/FredBoat com NicoAudioSourceManager.java && \
+    rm -rf /root/FredBoat com NicoAudioSourceManager.java
 #ADD config.yaml credentials.yaml /opt/FredBoat/
 
 CMD ["java", "-jar", "-Xmx128m", "FredBoat.jar"]
