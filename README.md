@@ -14,9 +14,9 @@ dockerとdocker-composeの使える環境で、
 ## ニコニコ動画の動画を再生する際
 ニコニコの動画を再生する際も同様に```{prefix}play URL```が使用できます。<br>
 対応しているURL形式は以下です。<br>
-```http://```または```https://```または無し<br>
+```http://```または```https://```<br>
 続けて、<br>
-```www.```または```sp.```または無し<br>
+```www.```または```sp.```<br>
 続けて<br>
 ```nicovideo.jp/watch/```または```nico.ms/```<br>
 続けて<br>
