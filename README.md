@@ -20,7 +20,7 @@ dockerとdocker-composeの使える環境で、
 続けて<br>
 ```nicovideo.jp/watch/```または```nico.ms/```<br>
 続けて<br>
-```sm[0-9]```または```so[0-9]```または```[0-9}```<br>
+```sm[0-9]```または```so[0-9]```または```[0-9]```<br>
 となっています。<br>
 ソースコード内では<br>
 `^(?:http://|https://|)(?:www\\.|sp\\.|)(?:nicovideo\\.jp/watch/|nico\\.ms/)((?:sm|so|)[0-9]+)(?:\\?.*|)$`<br>
