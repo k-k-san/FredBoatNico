@@ -1,15 +1,16 @@
 # FredBoatNico
-
-ニコニコ動画対応版FredBoatのdockerイメージを作成します。
+ニコニコ動画対応版FredBoatをdockerコンテナ内でbuild、実行します。
 
 ## build方法
-dockerとdocker-composeの使える環境で、
+`FredBoat/docker/bot/config.yaml`<br>
+`FredBoat/docker/bot/credentials.yaml`<br>
+を編集したのち、dockerとdocker-composeの使える環境で、<br>
 ```sudo docker-compose build```
 を実行すればビルドされます。
 
 ## 使用方法
 ほぼオリジナルのFredBoatです。<br>
-従って使用方法等は公式のマニュアルをご覧ください。
+使用方法等は公式のマニュアルをご覧ください。
 
 ## ニコニコ動画の動画を再生する際
 ニコニコの動画を再生する際も同様に```{prefix}play URL```が使用できます。<br>
