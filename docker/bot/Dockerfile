@@ -7,8 +7,6 @@ RUN apt-get update && \
     apt-get -y install zip git && \
     git clone https://github.com/k-k-san/FredBoat.git && \
     mkdir /opt/FredBoat
-ADD AbstractPlayer.java /root/FredBoat/FredBoat/src/main/java/fredboat/audio/player/
-ADD Config.java /root/FredBoat/FredBoat/src/main/java/fredboat/
 
 WORKDIR /root/FredBoat
 RUN ./gradlew build
